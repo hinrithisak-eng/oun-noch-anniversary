@@ -205,7 +205,7 @@ body.locked{overflow:hidden}
 
 /* memory board */
 .board{position:relative;aspect-ratio:100/76;max-width:100%;border-radius:32px;overflow:hidden;box-shadow:0 20px 40px rgba(196,42,104,.2)}
-.board::before{content:"";position:absolute;inset:-20px;background:url(photos/p3.jpg) center/cover;filter:blur(7px)}
+.board::before{content:"";position:absolute;inset:-20px;background:url(p3.jpg) center/cover;filter:blur(7px)}
 .board::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,92,147,.62),rgba(196,42,104,.66))}
 .board .string{position:absolute;inset:0;width:100%;height:100%;z-index:1}
 .board .polaroid{position:absolute;width:19%;z-index:2;cursor:zoom-in;border:0;font:inherit;padding:8px 8px 40px;transition:transform .25s}
@@ -295,7 +295,7 @@ footer{text-align:center;font-family:var(--hand);font-size:26px;color:var(--mute
     <div class="hero-photo">
       <figure class="polaroid" style="margin:0">
         <span class="tape"></span>
-        <img src="photos/p2.jpg" alt="The two of us in white shirts, you holding a big red bouquet">
+        <img src="p2.jpg" alt="The two of us in white shirts, you holding a big red bouquet">
         <figcaption>my whole heart, right here</figcaption>
       </figure>
       <div class="sticker">730<br>days<br>of us</div>
@@ -434,7 +434,7 @@ footer{text-align:center;font-family:var(--hand);font-size:26px;color:var(--mute
     <div data-panel="memories" hidden>
       <h2>Memories made with you</h2>
       <div class="strip-wrap">
-        <div class="strip"><img src="photos/p7.jpg" alt=""><img src="photos/p3.jpg" alt=""><img src="photos/p5.jpg" alt=""><img src="photos/p6.jpg" alt=""></div>
+        <div class="strip"><img src="p7.jpg" alt=""><img src="p3.jpg" alt=""><img src="p5.jpg" alt=""><img src="p6.jpg" alt=""></div>
         <div class="paper">
           <p class="hand">Every photo tells a little story.</p>
           <p>The big days, the silly selfies, the moments I didn't want to end. Looking back at these reminds me how much joy you've brought into my life.</p>
@@ -594,13 +594,13 @@ tick(); setInterval(tick, 1000);
 
 /* ---------- gallery + lightbox ---------- */
 const PHOTOS = [
-  {src:'photos/p3.jpg', cap:'you + me, my favorite view', alt:'Selfie of us smiling in front of a green stage backdrop'},
-  {src:'photos/p7.jpg', cap:'photobooth cuties', alt:'Our photobooth strip with bear ears and matching hats'},
-  {src:'photos/p2.jpg', cap:'big day, bigger smile', alt:'Us standing together, you holding a bouquet'},
-  {src:'photos/p5.jpg', cap:'our handprints · 10.05.26', alt:'Two framed pink and blue handprint paintings dated 10.05.26'},
-  {src:'photos/p6.jpg', cap:'matching bracelets', alt:'Our hands side by side wearing matching name bracelets'},
-  {src:'photos/p4.jpg', cap:'matching badges, matching hearts', alt:'Selfie of us holding up our event badges'},
-  {src:'photos/p1.jpg', cap:'little souvenirs of our days', alt:'Our event badges held in your hands'}
+  {src:'p3.jpg', cap:'you + me, my favorite view', alt:'Selfie of us smiling in front of a green stage backdrop'},
+  {src:'p7.jpg', cap:'photobooth cuties', alt:'Our photobooth strip with bear ears and matching hats'},
+  {src:'p2.jpg', cap:'big day, bigger smile', alt:'Us standing together, you holding a bouquet'},
+  {src:'p5.jpg', cap:'our handprints · 10.05.26', alt:'Two framed pink and blue handprint paintings dated 10.05.26'},
+  {src:'p6.jpg', cap:'matching bracelets', alt:'Our hands side by side wearing matching name bracelets'},
+  {src:'p4.jpg', cap:'matching badges, matching hearts', alt:'Selfie of us holding up our event badges'},
+  {src:'p1.jpg', cap:'little souvenirs of our days', alt:'Our event badges held in your hands'}
 ];
 const gal = document.getElementById('gallery');
 PHOTOS.forEach((p,i)=>{
